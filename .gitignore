@@ -1,2 +1,5 @@
-llm_rag_core_rust/target
-llm_rag_core_rust/Cargo.lock
+
+# RUST
+llm_rag_core/target
+llm_rag_core/Cargo.lock
+
