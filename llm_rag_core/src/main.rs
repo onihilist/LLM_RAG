@@ -2,6 +2,7 @@ use crate::exceptions::RagExceptions;
 
 mod core;
 mod exceptions;
+mod config;
 
 fn main() {
     core::process::rag_process("How many people in Tokyo ?")
