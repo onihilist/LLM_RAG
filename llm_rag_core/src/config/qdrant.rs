@@ -1,11 +1,11 @@
 
-
 pub struct QdrantConfig {
     pub logger_config: QdrantLoggerConfig,
     pub storage_config: QdrantStorageConfig,
     pub service_config: QdrantServiceConfig,
     pub cluster_config: QdrantClusterConfig,
 }
+
 pub struct QdrantLoggerConfig {
     pub format: String,
     pub logger_config_on_disk: QdrantLoggerOnDiskConfig,
